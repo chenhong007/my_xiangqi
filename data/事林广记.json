@@ -1,0 +1,58 @@
+{
+  "manual_name": "事林广记",
+  "manual_type": "残局古谱",
+  "source": "https://www.xqipu.com/canjugupu/1578",
+  "total_discovered": 3,
+  "total_parsed": 3,
+  "downloaded_at": "2026-08-02",
+  "games": [
+    {
+      "id": "fed6c8b9-671e-4c82-9614-5a627e4526c1",
+      "url": "https://www.xqipu.com/qipu/fed6c8b9-671e-4c82-9614-5a627e4526c1",
+      "title": "二龙出海势（中国象棋最早的残局谱）",
+      "event": "事林广记",
+      "class": "",
+      "round": "",
+      "date": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "board_init_raw": "5173294849399999740147999999999968782030404199998842899999999999",
+      "moves_raw": "766861605850606850594959757968697969",
+      "comments": {},
+      "variations": []
+    },
+    {
+      "id": "7308f211-4be5-489b-b21f-d1ca8a7d1d50",
+      "url": "https://www.xqipu.com/qipu/7308f211-4be5-489b-b21f-d1ca8a7d1d50",
+      "title": "饶先列手取胜局",
+      "event": "事林广记",
+      "class": "",
+      "round": "",
+      "date": "",
+      "result": "红先负",
+      "red_player": "",
+      "black_player": "",
+      "board_init_raw": "",
+      "moves_raw": "72421747706219278070776770780908121847481814484362430878435529475567786867462746144479671022",
+      "comments": {},
+      "variations": []
+    },
+    {
+      "id": "83578991-f72b-4560-98c3-77b6f5ac43bf",
+      "url": "https://www.xqipu.com/qipu/83578991-f72b-4560-98c3-77b6f5ac43bf",
+      "title": "饶先顺手取胜局",
+      "event": "事林广记",
+      "class": "",
+      "round": "",
+      "date": "",
+      "result": "红先负",
+      "red_player": "",
+      "black_player": "",
+      "board_init_raw": "",
+      "moves_raw": "724277477062796780701927707626257666273566653554636469876525543325353321",
+      "comments": {},
+      "variations": []
+    }
+  ]
+}

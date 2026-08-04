@@ -1,0 +1,2971 @@
+{
+  "manual": "烂柯真机",
+  "type": "残局古谱",
+  "total": 13,
+  "games": [
+    {
+      "id": "89123c5e-73e9-4927-9c90-12ae2b52efec",
+      "title": "第09局 狼烟吓虏之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 3,
+          "row": 4
+        },
+        {
+          "piece": "相",
+          "col": 6,
+          "row": 5
+        },
+        {
+          "piece": "帅",
+          "col": 3,
+          "row": 9
+        },
+        {
+          "piece": "炮",
+          "col": 8,
+          "row": 3
+        },
+        {
+          "piece": "炮",
+          "col": 0,
+          "row": 5
+        },
+        {
+          "piece": "兵",
+          "col": 2,
+          "row": 0
+        },
+        {
+          "piece": "兵",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "車",
+          "col": 7,
+          "row": 1
+        },
+        {
+          "piece": "士",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "砲",
+          "col": 4,
+          "row": 9
+        },
+        {
+          "piece": "卒",
+          "col": 5,
+          "row": 7
+        },
+        {
+          "piece": "卒",
+          "col": 1,
+          "row": 8
+        },
+        {
+          "piece": "卒",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "卒",
+          "col": 6,
+          "row": 8
+        },
+        {
+          "piece": "卒",
+          "col": 6,
+          "row": 9
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "车六平五",
+          "from": [
+            3,
+            4
+          ],
+          "to": [
+            4,
+            4
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "砲５退５",
+          "from": [
+            4,
+            9
+          ],
+          "to": [
+            4,
+            4
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "炮九平五",
+          "from": [
+            0,
+            5
+          ],
+          "to": [
+            4,
+            5
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "砲５平８",
+          "from": [
+            4,
+            4
+          ],
+          "to": [
+            7,
+            4
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "炮一平五",
+          "from": [
+            8,
+            3
+          ],
+          "to": [
+            4,
+            3
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "砲８平５",
+          "from": [
+            7,
+            4
+          ],
+          "to": [
+            4,
+            4
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "前炮进二",
+          "from": [
+            4,
+            3
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "卒５进１",
+          "from": [
+            4,
+            8
+          ],
+          "to": [
+            4,
+            9
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "帅六进一",
+          "from": [
+            3,
+            9
+          ],
+          "to": [
+            3,
+            8
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "卒２平３",
+          "from": [
+            1,
+            8
+          ],
+          "to": [
+            2,
+            8
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "帅六进一",
+          "from": [
+            3,
+            8
+          ],
+          "to": [
+            3,
+            7
+          ]
+        },
+        {
+          "step": 12,
+          "notation": "卒６平５",
+          "from": [
+            5,
+            7
+          ],
+          "to": [
+            4,
+            7
+          ]
+        },
+        {
+          "step": 13,
+          "notation": "相三退五",
+          "from": [
+            6,
+            5
+          ],
+          "to": [
+            4,
+            7
+          ]
+        },
+        {
+          "step": 14,
+          "notation": "士４进５",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 15,
+          "notation": "兵七平六",
+          "from": [
+            2,
+            0
+          ],
+          "to": [
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "77f288e1-d281-4b67-a713-41795668cf5b",
+      "title": "第13局 三军夺将之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "马",
+          "col": 8,
+          "row": 2
+        },
+        {
+          "piece": "相",
+          "col": 4,
+          "row": 7
+        },
+        {
+          "piece": "仕",
+          "col": 5,
+          "row": 9
+        },
+        {
+          "piece": "帅",
+          "col": 3,
+          "row": 9
+        },
+        {
+          "piece": "马",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "兵",
+          "col": 2,
+          "row": 1
+        },
+        {
+          "piece": "兵",
+          "col": 5,
+          "row": 1
+        },
+        {
+          "piece": "兵",
+          "col": 4,
+          "row": 4
+        },
+        {
+          "piece": "馬",
+          "col": 8,
+          "row": 7
+        },
+        {
+          "piece": "士",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "卒",
+          "col": 3,
+          "row": 5
+        },
+        {
+          "piece": "卒",
+          "col": 5,
+          "row": 7
+        },
+        {
+          "piece": "卒",
+          "col": 2,
+          "row": 8
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "兵四平三",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            6,
+            1
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "士５进４",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "兵七平六",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将５平６",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            5,
+            0
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "兵三进一",
+          "from": [
+            6,
+            1
+          ],
+          "to": [
+            6,
+            0
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "将６进１",
+          "from": [
+            5,
+            0
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "马一退三",
+          "from": [
+            8,
+            2
+          ],
+          "to": [
+            6,
+            3
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "将６进１",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "兵五进一",
+          "from": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            3
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "卒４进１",
+          "from": [
+            3,
+            5
+          ],
+          "to": [
+            3,
+            6
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "兵五进一",
+          "from": [
+            4,
+            3
+          ],
+          "to": [
+            4,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "92c92167-5522-4858-b120-c35d30111c3f",
+      "title": "第14局 劣马垂缰之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "马",
+          "col": 5,
+          "row": 3
+        },
+        {
+          "piece": "相",
+          "col": 2,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 3,
+          "row": 7
+        },
+        {
+          "piece": "帅",
+          "col": 4,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 3,
+          "row": 9
+        },
+        {
+          "piece": "炮",
+          "col": 8,
+          "row": 7
+        },
+        {
+          "piece": "兵",
+          "col": 2,
+          "row": 1
+        },
+        {
+          "piece": "兵",
+          "col": 6,
+          "row": 1
+        },
+        {
+          "piece": "車",
+          "col": 0,
+          "row": 8
+        },
+        {
+          "piece": "馬",
+          "col": 2,
+          "row": 7
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "象",
+          "col": 4,
+          "row": 2
+        },
+        {
+          "piece": "砲",
+          "col": 0,
+          "row": 9
+        },
+        {
+          "piece": "卒",
+          "col": 2,
+          "row": 8
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "兵三平二",
+          "from": [
+            6,
+            1
+          ],
+          "to": [
+            7,
+            1
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "象５进３",
+          "from": [
+            4,
+            2
+          ],
+          "to": [
+            2,
+            4
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "炮一进七",
+          "from": [
+            8,
+            7
+          ],
+          "to": [
+            8,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "象７进５",
+          "from": [
+            6,
+            0
+          ],
+          "to": [
+            4,
+            2
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "兵二进一",
+          "from": [
+            7,
+            1
+          ],
+          "to": [
+            7,
+            0
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "象５退７",
+          "from": [
+            4,
+            2
+          ],
+          "to": [
+            6,
+            0
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "兵二平三",
+          "from": [
+            7,
+            0
+          ],
+          "to": [
+            6,
+            0
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "将６进１",
+          "from": [
+            5,
+            0
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "马四进二",
+          "from": [
+            5,
+            3
+          ],
+          "to": [
+            7,
+            2
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "将６进１",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "炮一退二",
+          "from": [
+            8,
+            0
+          ],
+          "to": [
+            8,
+            2
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b8316db8-eba9-46d6-9a52-aca1d7fa7dfe",
+      "title": "第15局 残虏来降之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "帅",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "炮",
+          "col": 5,
+          "row": 9
+        },
+        {
+          "piece": "兵",
+          "col": 1,
+          "row": 1
+        },
+        {
+          "piece": "兵",
+          "col": 6,
+          "row": 5
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 3,
+          "row": 1
+        },
+        {
+          "piece": "士",
+          "col": 3,
+          "row": 2
+        },
+        {
+          "piece": "象",
+          "col": 8,
+          "row": 2
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "兵八平七",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            2,
+            1
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "将４退１",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "兵七进一",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            2,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将４进１",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "炮四进八",
+          "from": [
+            5,
+            9
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "象９进７",
+          "from": [
+            8,
+            2
+          ],
+          "to": [
+            6,
+            4
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "兵三进一",
+          "from": [
+            6,
+            5
+          ],
+          "to": [
+            6,
+            4
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "象７进９",
+          "from": [
+            6,
+            0
+          ],
+          "to": [
+            8,
+            2
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "兵三平二",
+          "from": [
+            6,
+            4
+          ],
+          "to": [
+            7,
+            4
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "象９退７",
+          "from": [
+            8,
+            2
+          ],
+          "to": [
+            6,
+            0
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "兵二进一",
+          "from": [
+            7,
+            4
+          ],
+          "to": [
+            7,
+            3
+          ]
+        },
+        {
+          "step": 12,
+          "notation": "象７进９",
+          "from": [
+            6,
+            0
+          ],
+          "to": [
+            8,
+            2
+          ]
+        },
+        {
+          "step": 13,
+          "notation": "炮四平二",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            7,
+            1
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9d8a5a89-1e75-4a32-9a5c-ba8bd26de4f8",
+      "title": "第16局 脱笋叶之势局 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 8,
+          "row": 0
+        },
+        {
+          "piece": "马",
+          "col": 1,
+          "row": 3
+        },
+        {
+          "piece": "帅",
+          "col": 3,
+          "row": 9
+        },
+        {
+          "piece": "炮",
+          "col": 1,
+          "row": 0
+        },
+        {
+          "piece": "車",
+          "col": 0,
+          "row": 8
+        },
+        {
+          "piece": "馬",
+          "col": 5,
+          "row": 7
+        },
+        {
+          "piece": "象",
+          "col": 4,
+          "row": 2
+        },
+        {
+          "piece": "士",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 5,
+          "row": 1
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "卒",
+          "col": 6,
+          "row": 4
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "车一退一",
+          "from": [
+            8,
+            0
+          ],
+          "to": [
+            8,
+            1
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "将６进１",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "车一退一",
+          "from": [
+            8,
+            1
+          ],
+          "to": [
+            8,
+            2
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将６退１",
+          "from": [
+            5,
+            2
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "炮八退一",
+          "from": [
+            1,
+            0
+          ],
+          "to": [
+            1,
+            1
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "士５进４",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "马八进七",
+          "from": [
+            1,
+            3
+          ],
+          "to": [
+            2,
+            1
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "前士退５",
+          "from": [
+            3,
+            2
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "车一平四",
+          "from": [
+            8,
+            2
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "将６进１",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "马七退六",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            3,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4dfc6686-fa94-4bae-8f14-52939857f75e",
+      "title": "第23局 老蝉及月之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 2,
+          "row": 1
+        },
+        {
+          "piece": "马",
+          "col": 1,
+          "row": 4
+        },
+        {
+          "piece": "相",
+          "col": 2,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "帅",
+          "col": 4,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 3,
+          "row": 9
+        },
+        {
+          "piece": "车",
+          "col": 2,
+          "row": 2
+        },
+        {
+          "piece": "炮",
+          "col": 0,
+          "row": 7
+        },
+        {
+          "piece": "炮",
+          "col": 4,
+          "row": 7
+        },
+        {
+          "piece": "車",
+          "col": 7,
+          "row": 0
+        },
+        {
+          "piece": "馬",
+          "col": 6,
+          "row": 7
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "象",
+          "col": 8,
+          "row": 2
+        },
+        {
+          "piece": "車",
+          "col": 5,
+          "row": 8
+        },
+        {
+          "piece": "砲",
+          "col": 4,
+          "row": 3
+        },
+        {
+          "piece": "卒",
+          "col": 2,
+          "row": 3
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "后车平六",
+          "from": [
+            2,
+            2
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "士５进４",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "车七进一",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            2,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将４进１",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "车七平六",
+          "from": [
+            2,
+            0
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "将４退１",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "马八进七",
+          "from": [
+            1,
+            4
+          ],
+          "to": [
+            2,
+            2
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "将４进１",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "马七进八",
+          "from": [
+            2,
+            2
+          ],
+          "to": [
+            1,
+            0
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "将４退１",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "炮九进七",
+          "from": [
+            0,
+            7
+          ],
+          "to": [
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d18a4026-32c8-4cbe-ae07-c6c80927e312",
+      "title": "第24局 黄河九曲之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 4,
+          "row": 2
+        },
+        {
+          "piece": "马",
+          "col": 7,
+          "row": 3
+        },
+        {
+          "piece": "相",
+          "col": 4,
+          "row": 7
+        },
+        {
+          "piece": "仕",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "帅",
+          "col": 4,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 5,
+          "row": 9
+        },
+        {
+          "piece": "相",
+          "col": 6,
+          "row": 9
+        },
+        {
+          "piece": "炮",
+          "col": 7,
+          "row": 4
+        },
+        {
+          "piece": "兵",
+          "col": 4,
+          "row": 3
+        },
+        {
+          "piece": "車",
+          "col": 3,
+          "row": 8
+        },
+        {
+          "piece": "馬",
+          "col": 2,
+          "row": 7
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 4
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "砲",
+          "col": 4,
+          "row": 6
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "马二进四",
+          "from": [
+            7,
+            3
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "将５平４",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "炮二进四",
+          "from": [
+            7,
+            4
+          ],
+          "to": [
+            7,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将４进１",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "车五平六",
+          "from": [
+            4,
+            2
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "将４进１",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "炮二退二",
+          "from": [
+            7,
+            0
+          ],
+          "to": [
+            7,
+            2
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "象７退５",
+          "from": [
+            6,
+            4
+          ],
+          "to": [
+            4,
+            2
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "兵五进一",
+          "from": [
+            4,
+            3
+          ],
+          "to": [
+            4,
+            2
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "将４退１",
+          "from": [
+            3,
+            2
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "兵五平六",
+          "from": [
+            4,
+            2
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 12,
+          "notation": "将４退１",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 13,
+          "notation": "炮二进二",
+          "from": [
+            7,
+            2
+          ],
+          "to": [
+            7,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ad658ef2-136f-40d0-a86f-46cae5ee69d4",
+      "title": "第25局 北雁来宾之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 2,
+          "row": 7
+        },
+        {
+          "piece": "马",
+          "col": 7,
+          "row": 1
+        },
+        {
+          "piece": "仕",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "帅",
+          "col": 3,
+          "row": 8
+        },
+        {
+          "piece": "仕",
+          "col": 5,
+          "row": 9
+        },
+        {
+          "piece": "马",
+          "col": 1,
+          "row": 2
+        },
+        {
+          "piece": "炮",
+          "col": 0,
+          "row": 7
+        },
+        {
+          "piece": "兵",
+          "col": 3,
+          "row": 1
+        },
+        {
+          "piece": "車",
+          "col": 6,
+          "row": 8
+        },
+        {
+          "piece": "馬",
+          "col": 7,
+          "row": 3
+        },
+        {
+          "piece": "象",
+          "col": 2,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "象",
+          "col": 0,
+          "row": 2
+        },
+        {
+          "piece": "馬",
+          "col": 5,
+          "row": 6
+        },
+        {
+          "piece": "車",
+          "col": 8,
+          "row": 8
+        },
+        {
+          "piece": "卒",
+          "col": 3,
+          "row": 6
+        },
+        {
+          "piece": "卒",
+          "col": 2,
+          "row": 9
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "兵六进一",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "将５平４",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "车七进七",
+          "from": [
+            2,
+            7
+          ],
+          "to": [
+            2,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "象１退３",
+          "from": [
+            0,
+            2
+          ],
+          "to": [
+            2,
+            0
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "炮九进七",
+          "from": [
+            0,
+            7
+          ],
+          "to": [
+            0,
+            0
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "象３进１",
+          "from": [
+            2,
+            0
+          ],
+          "to": [
+            0,
+            2
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "马八进七",
+          "from": [
+            1,
+            2
+          ],
+          "to": [
+            2,
+            0
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "将４进１",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "马二进四",
+          "from": [
+            7,
+            1
+          ],
+          "to": [
+            5,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "27ecdfe9-bcfb-4ea1-94cf-18ad3972019b",
+      "title": "第26局 沧海得珠之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 5,
+          "row": 1
+        },
+        {
+          "piece": "马",
+          "col": 7,
+          "row": 2
+        },
+        {
+          "piece": "仕",
+          "col": 5,
+          "row": 7
+        },
+        {
+          "piece": "帅",
+          "col": 4,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "炮",
+          "col": 4,
+          "row": 3
+        },
+        {
+          "piece": "兵",
+          "col": 1,
+          "row": 1
+        },
+        {
+          "piece": "兵",
+          "col": 3,
+          "row": 1
+        },
+        {
+          "piece": "車",
+          "col": 3,
+          "row": 8
+        },
+        {
+          "piece": "馬",
+          "col": 2,
+          "row": 7
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "砲",
+          "col": 4,
+          "row": 2
+        },
+        {
+          "piece": "砲",
+          "col": 5,
+          "row": 8
+        },
+        {
+          "piece": "卒",
+          "col": 6,
+          "row": 8
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "兵六平五",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "士６进５",
+          "from": [
+            5,
+            0
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "车四平五",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将５平４",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "车五进一",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            4,
+            0
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "将４进１",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "兵八平七",
+          "from": [
+            1,
+            1
+          ],
+          "to": [
+            2,
+            1
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "将４进１",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "车五平六",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            3,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "id": "badc2607-20e3-4db2-9da4-03453717cfde",
+      "title": "第27局 双蝶争芳之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 7,
+          "row": 2
+        },
+        {
+          "piece": "马",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "相",
+          "col": 6,
+          "row": 5
+        },
+        {
+          "piece": "帅",
+          "col": 5,
+          "row": 9
+        },
+        {
+          "piece": "相",
+          "col": 4,
+          "row": 7
+        },
+        {
+          "piece": "马",
+          "col": 1,
+          "row": 5
+        },
+        {
+          "piece": "车",
+          "col": 4,
+          "row": 5
+        },
+        {
+          "piece": "炮",
+          "col": 1,
+          "row": 0
+        },
+        {
+          "piece": "炮",
+          "col": 1,
+          "row": 3
+        },
+        {
+          "piece": "兵",
+          "col": 6,
+          "row": 2
+        },
+        {
+          "piece": "兵",
+          "col": 4,
+          "row": 6
+        },
+        {
+          "piece": "車",
+          "col": 5,
+          "row": 5
+        },
+        {
+          "piece": "馬",
+          "col": 2,
+          "row": 0
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 3,
+          "row": 2
+        },
+        {
+          "piece": "将",
+          "col": 3,
+          "row": 1
+        },
+        {
+          "piece": "象",
+          "col": 4,
+          "row": 2
+        },
+        {
+          "piece": "馬",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "砲",
+          "col": 5,
+          "row": 4
+        },
+        {
+          "piece": "卒",
+          "col": 4,
+          "row": 3
+        },
+        {
+          "piece": "卒",
+          "col": 6,
+          "row": 4
+        },
+        {
+          "piece": "卒",
+          "col": 3,
+          "row": 7
+        },
+        {
+          "piece": "卒",
+          "col": 5,
+          "row": 7
+        },
+        {
+          "piece": "卒",
+          "col": 3,
+          "row": 9
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "马八进七",
+          "from": [
+            1,
+            5
+          ],
+          "to": [
+            2,
+            3
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "将４平５",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "后炮平五",
+          "from": [
+            1,
+            3
+          ],
+          "to": [
+            4,
+            3
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "象５进３",
+          "from": [
+            4,
+            2
+          ],
+          "to": [
+            2,
+            4
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "车二进一",
+          "from": [
+            7,
+            2
+          ],
+          "to": [
+            7,
+            1
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "砲６退３",
+          "from": [
+            5,
+            4
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "马七进五",
+          "from": [
+            2,
+            3
+          ],
+          "to": [
+            4,
+            2
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "将５平４",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "车二平四",
+          "from": [
+            7,
+            1
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "車６退４",
+          "from": [
+            5,
+            5
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "炮五平六",
+          "from": [
+            4,
+            3
+          ],
+          "to": [
+            3,
+            3
+          ]
+        },
+        {
+          "step": 12,
+          "notation": "士４退５",
+          "from": [
+            3,
+            2
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 13,
+          "notation": "后马退七",
+          "from": [
+            4,
+            2
+          ],
+          "to": [
+            2,
+            3
+          ]
+        },
+        {
+          "step": 14,
+          "notation": "将４进１",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            3,
+            2
+          ]
+        },
+        {
+          "step": 15,
+          "notation": "炮六退六",
+          "from": [
+            3,
+            3
+          ],
+          "to": [
+            3,
+            9
+          ]
+        },
+        {
+          "step": 16,
+          "notation": "卒４平５",
+          "from": [
+            3,
+            7
+          ],
+          "to": [
+            4,
+            7
+          ]
+        },
+        {
+          "step": 17,
+          "notation": "车五平六",
+          "from": [
+            4,
+            5
+          ],
+          "to": [
+            3,
+            5
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4cf8391a-7592-4264-ad07-b46b8c06d391",
+      "title": "第28局 燕国招贤之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 0,
+          "row": 7
+        },
+        {
+          "piece": "马",
+          "col": 4,
+          "row": 4
+        },
+        {
+          "piece": "相",
+          "col": 2,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 3,
+          "row": 9
+        },
+        {
+          "piece": "帅",
+          "col": 4,
+          "row": 9
+        },
+        {
+          "piece": "仕",
+          "col": 5,
+          "row": 9
+        },
+        {
+          "piece": "马",
+          "col": 4,
+          "row": 8
+        },
+        {
+          "piece": "炮",
+          "col": 4,
+          "row": 7
+        },
+        {
+          "piece": "兵",
+          "col": 2,
+          "row": 1
+        },
+        {
+          "piece": "兵",
+          "col": 2,
+          "row": 6
+        },
+        {
+          "piece": "兵",
+          "col": 4,
+          "row": 6
+        },
+        {
+          "piece": "兵",
+          "col": 6,
+          "row": 6
+        },
+        {
+          "piece": "馬",
+          "col": 8,
+          "row": 7
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "象",
+          "col": 4,
+          "row": 2
+        },
+        {
+          "piece": "砲",
+          "col": 1,
+          "row": 9
+        },
+        {
+          "piece": "卒",
+          "col": 8,
+          "row": 3
+        },
+        {
+          "piece": "卒",
+          "col": 3,
+          "row": 8
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "车九进七",
+          "from": [
+            0,
+            7
+          ],
+          "to": [
+            0,
+            0
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "士５退４",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "前马进四",
+          "from": [
+            4,
+            4
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将５进１",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "前兵平六",
+          "from": [
+            2,
+            1
+          ],
+          "to": [
+            3,
+            1
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "将５平６",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "炮五平四",
+          "from": [
+            4,
+            7
+          ],
+          "to": [
+            5,
+            7
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "将６进１",
+          "from": [
+            5,
+            1
+          ],
+          "to": [
+            5,
+            2
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "马五进四",
+          "from": [
+            4,
+            8
+          ],
+          "to": [
+            5,
+            6
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3d27c38d-2833-45bf-80f1-ca141831ce35",
+      "title": "第29局 引龙岀水之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 5,
+          "row": 4
+        },
+        {
+          "piece": "帅",
+          "col": 4,
+          "row": 9
+        },
+        {
+          "piece": "车",
+          "col": 7,
+          "row": 4
+        },
+        {
+          "piece": "炮",
+          "col": 4,
+          "row": 3
+        },
+        {
+          "piece": "兵",
+          "col": 3,
+          "row": 1
+        },
+        {
+          "piece": "車",
+          "col": 2,
+          "row": 9
+        },
+        {
+          "piece": "馬",
+          "col": 3,
+          "row": 9
+        },
+        {
+          "piece": "象",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 5,
+          "row": 0
+        },
+        {
+          "piece": "将",
+          "col": 4,
+          "row": 0
+        },
+        {
+          "piece": "士",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "象",
+          "col": 4,
+          "row": 2
+        },
+        {
+          "piece": "砲",
+          "col": 2,
+          "row": 0
+        },
+        {
+          "piece": "卒",
+          "col": 5,
+          "row": 8
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "车四进四",
+          "from": [
+            5,
+            4
+          ],
+          "to": [
+            5,
+            0
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "将５平６",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            5,
+            0
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "车二平四",
+          "from": [
+            7,
+            4
+          ],
+          "to": [
+            5,
+            4
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "将６平５",
+          "from": [
+            5,
+            0
+          ],
+          "to": [
+            4,
+            0
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "兵六平五",
+          "from": [
+            3,
+            1
+          ],
+          "to": [
+            4,
+            1
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "将５平４",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            3,
+            0
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "车四平六",
+          "from": [
+            5,
+            4
+          ],
+          "to": [
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7026a770-55ed-4fe1-8dc4-4ef9b71782a6",
+      "title": "第30局 王母蟠桃之势 （红先胜）",
+      "round": "",
+      "result": "红先胜",
+      "red_player": "",
+      "black_player": "",
+      "init_board": [
+        {
+          "piece": "车",
+          "col": 3,
+          "row": 0
+        },
+        {
+          "piece": "帅",
+          "col": 3,
+          "row": 8
+        },
+        {
+          "piece": "兵",
+          "col": 6,
+          "row": 0
+        },
+        {
+          "piece": "車",
+          "col": 4,
+          "row": 1
+        },
+        {
+          "piece": "将",
+          "col": 5,
+          "row": 2
+        }
+      ],
+      "moves": [
+        {
+          "step": 1,
+          "notation": "帅六进一",
+          "from": [
+            3,
+            8
+          ],
+          "to": [
+            3,
+            7
+          ]
+        },
+        {
+          "step": 2,
+          "notation": "車５平１",
+          "from": [
+            4,
+            1
+          ],
+          "to": [
+            0,
+            1
+          ]
+        },
+        {
+          "step": 3,
+          "notation": "车六平五",
+          "from": [
+            3,
+            0
+          ],
+          "to": [
+            4,
+            0
+          ]
+        },
+        {
+          "step": 4,
+          "notation": "車１进３",
+          "from": [
+            0,
+            1
+          ],
+          "to": [
+            0,
+            4
+          ]
+        },
+        {
+          "step": 5,
+          "notation": "帅六平五",
+          "from": [
+            3,
+            7
+          ],
+          "to": [
+            4,
+            7
+          ]
+        },
+        {
+          "step": 6,
+          "notation": "車１退３",
+          "from": [
+            0,
+            4
+          ],
+          "to": [
+            0,
+            1
+          ]
+        },
+        {
+          "step": 7,
+          "notation": "车五退四",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            4,
+            4
+          ]
+        },
+        {
+          "step": 8,
+          "notation": "車１进６",
+          "from": [
+            0,
+            1
+          ],
+          "to": [
+            0,
+            7
+          ]
+        },
+        {
+          "step": 9,
+          "notation": "帅五退一",
+          "from": [
+            4,
+            7
+          ],
+          "to": [
+            4,
+            8
+          ]
+        },
+        {
+          "step": 10,
+          "notation": "車１平６",
+          "from": [
+            0,
+            7
+          ],
+          "to": [
+            5,
+            7
+          ]
+        },
+        {
+          "step": 11,
+          "notation": "车五进四",
+          "from": [
+            4,
+            4
+          ],
+          "to": [
+            4,
+            0
+          ]
+        },
+        {
+          "step": 12,
+          "notation": "将６退１",
+          "from": [
+            5,
+            2
+          ],
+          "to": [
+            5,
+            1
+          ]
+        },
+        {
+          "step": 13,
+          "notation": "车五平四",
+          "from": [
+            4,
+            0
+          ],
+          "to": [
+            5,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,623 @@
+<!-- keep IE67 in quirks mode -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-language" content="zh-cn" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<meta name="wap-font-scale" content="no" />
+<meta name="generator" content="notepad" />
+<meta name="author" content="hldcg,弈天东邪" />
+<meta name="Copyright" content="www.dpxq.com 版权所有,文章可自由转载,请注明文章出处" />
+<meta name="keywords" content="象棋,象棋棋谱,东萍象棋,棋谱仓库" />
+<meta name="description" content="东萍棋谱仓库－象棋棋谱搜索引擎－首页" />
+<title>东萍棋谱仓库 - 学习象棋，增长棋力最好帮手 - 百万棋谱，探索布局深层变化！打谱复盘，分析自己对局得失！变着统计，弈天砍人最佳帮凶</title>
+<style type="text/css">
+html {height:100%;overflow:hidden;}
+a:link,a:active,a:visited {text-decoration:none;color:#000;}
+a:hover {text-decoration:underline;color:#00f;}
+body {font-size:12px;line-height:16px;overflow:hidden;margin:0;padding:0;height:100%;width:100%;position:relative;background-color:#ccc;
+font-family : 宋体, SimSun, 'MS Song', sans-serif;
+}
+td,button,input,textarea,select {font-size:12px;line-height:16px;
+font-family : 宋体, SimSun, 'MS Song', sans-serif;
+} /*某些 td button 不继承body的fz设置*/
+.sframe, #fciframe {position:absolute;_position:relative;width:100%;height:100%;}
+.sframe iframe {position:absolute;top:0;width:100%;height:100%;}
+.hand {cursor:pointer!important;cursor:hand;}
+.hand:hover {text-decoration:underline;}
+</style>
+<script type="text/javascript">
+<!--
+try {var P=parent.location.href;} catch(e) {top.location.href=location.href.split('index.asp')[0];}
+var UBBS=new Array();
+UBBS["dhtmlxq_search_view"]='ok';
+UBBS["dhtmlxq_pview"]='[DhtmlXQ_title]预览棋盘[/DhtmlXQ_title]';
+UBBS["dhtmlxq_1"]='[DhtmlXQ_title]推演棋盘[一][/DhtmlXQ_title]';
+UBBS["dhtmlxq_2"]='[DhtmlXQ_title]推演棋盘[二][/DhtmlXQ_title]';
+UBBS["fcframe"]='ok';
+var CSS1=document.compatMode=='CSS1Compat'?true:false;
+var REOK=checkRegExp();
+var FRAMESETOK=false;
+var VIEWTYPE='txt';
+var IMGPATH='';
+var DIYIMG='';
+var DIYURL='';
+var DIYIQZ='';
+var DIYCLR='';
+var ZOOM=1.00;
+function cwin()
+{
+	if (window==top)
+	{
+		self.name='';
+		var h=window.screen.availHeight;
+		var w=window.screen.availWidth;
+		var b=document.body.clientWidth;
+		if (w-b>=5) //最大化
+		{
+			window.moveTo(0,0);
+			window.resizeTo((w>798)?w:798,(h>570)?h:570);
+		}
+	}
+}
+function $(o){return document.getElementById(o);}
+function fixScroll(e) {if (this.scrollTop!=0) this.scrollTop=0;}
+function checkRegExp() {try{new RegExp('.+?');return '?';}catch(e){return '';}}
+function SetCookie(name,value)
+{
+	var expdate=new Date();
+	var argv=SetCookie.arguments;
+	var argc=SetCookie.arguments.length;
+	var expires=(argc>2)?argv[2]:null;
+	var path=(argc>3)?argv[3]:null;
+	var domain=(argc>4)?argv[4]:null;
+	var secure=(argc>5)?argv[5]:false;
+	if (expires==null) expires=2592000;
+	if (expires!=null) expdate.setTime(expdate.getTime()+(expires*1000));
+	path='/hldcg/';
+	document.cookie=name+'='+escape(value)+((expires==null)?'':(';expires='+expdate.toGMTString()))+((path==null)?'':(';path='+path))+((domain==null)?'':(';domain='+domain))+((secure==true)?';secure':'');
+}
+function DelCookie(name)
+{
+	var exp=new Date();
+	exp.setTime(exp.getTime()-1000);
+	document.cookie=name+'=;expires='+exp.toGMTString();
+	document.cookie=name+'=;expires='+exp.toGMTString()+';path=/';
+	document.cookie=name+'=;expires='+exp.toGMTString()+';path=/hldcg/';
+}
+function GetCookie(name)
+{
+	var arg=eval('/'+name+'=([\\w\\*\\+\\-\\.\\/\\@\\%]*);/i');
+	arg=document.cookie.match(arg);
+	return (arg==null)?'':unescape(arg[1]);
+}
+function Xnc_KEvent(Xnc_K)
+{
+	if ($('message').style.display=='none'&&(Xnc_K==39||Xnc_K==37)) name_dhtmlxq_search_view.focus();
+}
+var fpi=[0,0,'name_dhtmlxq_search_view','search_diy','name_dhtmlxq_pview','name_dhtmlxq_1','name_dhtmlxq_2','login_save'];
+function show(s)
+{
+	if (!(s>=2&&s<=7)) return;
+	clearTimeout(SearchPtimer);
+	if (s==3&&window.frames[fpi[s]].location.href.indexOf('search.htm')==-1) window.frames[fpi[s]].location.href='search.htm';
+	else if ((s==2||s==4||s==5||s==6)&&window.frames[fpi[s]].location.href.indexOf('DhtmlXQ_www_dpxq_com.htm')==-1) window.frames[fpi[s]].location.href='DhtmlXQ_www_dpxq_com.htm';
+	$(fpi[s].replace('name_','id_')).style.left='0';
+	for (var i=2;i<=7;i++) {if (i!=s) $(fpi[i].replace('name_','id_')).style.left='200%';}
+}
+var NS,WIN;
+function getBrowser()
+{
+	NS=name_dhtmlxq_search_view.NS;
+	WIN=name_dhtmlxq_search_view.WIN;
+	NS.Old=((NS.IE&&NS.IE<=5&&!(document.documentMode>=0))||(!WIN.mobile&&NS.Opera&&NS.Opera<9))?1:0;
+	// IE5无法正常显示message
+	// Opera9开始正常显示message,9.5开始textarea的宽度和高度和标准浏览器一样,Opera15之后为Chrome核心了
+}
+function showalert(mess,ty)
+{
+	if (typeof(mess)!='string') return;
+	if (!NS) getBrowser();
+	if (NS.Old)
+	{
+		alert(mess.replace(/<br[\x20-\x3B\x3D-\x7E]*>/gi,'\n').replace(/<\/?[a-z][\x20-\x3B\x3D-\x7E]*>/gi,''));
+		return;
+	}
+	if (typeof(ty)!='string') ty='<div style="position:absolute;width:100%;height:22px;left:0;bottom:4px;text-align:center;"><input type="button" style="width:120px;height:22px;" value="\u786E\u5B9A" onclick="clickNO()" /></div>';
+	var m=mess.substr(0,4);
+	if (m=='\u62D2\u7EDD\u8BBF\u95EE'||m=='\u62D2\u7D55\u8A2A\u554F') return true;
+	else if (m=='\u6CA1\u6709\u6743\u9650'||m=='\u6C92\u6709\u6B0A\u9650'){if(window!=top)top.location=self.location;}
+	$('messdiv').innerHTML=mess+ty;
+	$('message').style.display='';
+	return true;
+}
+function clickNO()
+{
+	$('message').style.display='none';
+}
+function openmini()
+{
+	window.open('mini.asp','','width=506,height=738,resizable=yes,location=yes,status=yes');
+}
+function copyright()
+{
+	showalert('<span style="font-size:16px;line-height:24px;">程序正在完善，欢迎您到　http://www.dpxq.com　论坛提出宝贵意见<br>技术支持：弈天东邪，联系QQ：88081492<br>东萍象棋网UBB DhtmlXQ动态棋盘，有论坛或网站需要使用的请联系我</span>');
+}
+function upsite(id,url)
+{
+	var xmlhttp=false;
+	try {xmlhttp=new ActiveXObject('Msxml2.XMLHTTP');}
+	catch (e0) {try {xmlhttp=new ActiveXObject('Microsoft.XMLHTTP');}
+	catch (e1) {try {xmlhttp=new XMLHttpRequest();}
+	catch (e2) {return;}}}
+	xmlhttp.open('GET','/hldcg/xqdir/index.asp?act=go&id='+id,true);
+	xmlhttp.send(null);
+	if (!url) ;
+	else window.open(url,'','');
+}
+function AddtoFav(ty)
+{
+	var canAdd=false;
+	var s='东萍棋谱仓库 - 棋谱分享平台';
+	var u='http://www.dpxq.com/hldcg/search/';
+	try
+	{
+		if (document.all) {window.external.addFavorite(u,s);canAdd=true;}
+		else if (window.sidebar) {window.sidebar.addPanel(s,u,'');canAdd=true;}
+	}
+	catch(e) {}
+	if (!canAdd) showalert('您的浏览器不支持使用javascript脚本收藏，请使用鼠标右键或键盘快捷键(Ctrl+D)收藏');
+	upsite(1);
+}
+function getFrames(ty)
+{
+	var i,p=[2,4,5,6];
+	for (i=0;i<4;i++) {if ($(fpi[p[i]].replace('name_','id_')).style.left!='200%') return ty?p[i]:fpi[p[i]];}
+	return 0;
+}
+function copyBinit(o,s)
+{
+	var f=getFrames();
+	if (f!=0) {f=window.frames[f];if (!f.showalert) f=0;}
+	if (o=='auto_getpos')
+	{
+		var s1='在棋盘上走子后将自动复制相应局面串到系统剪贴版，然后可以粘贴到软件中使用，非IE核心浏览器不一定自动复制成功';
+		var s2='对不起，您的浏览器不支持window.clipboardData功能，请使用Internet Exploror核心的浏览器';
+		//if (window.clipboardData)
+		{
+			$(o).value=s;
+			if (f==0) showalert(s1);
+			else f.showalert(s1);
+		}
+		//else
+		//	showalert(s2);
+	}
+	else
+	{
+		var s1=search_diy.document.s.owner;
+		if (s1==null) s1='棋谱仓库高级搜索页目前显示不正常';
+		else s1=s1.value;
+		if (s=='')
+		{
+			s1='自动搜索已停止';
+			$(o).value=s;
+		}
+		else if (s!=''&&'_大师对局_网络赛事_顶尖对局_其他对局_m_n_t_o_'.indexOf('_'+s1+'_')==-1)
+		{
+			s1='大师对局、网络赛事、顶尖对局、其他对局四个棋库可以自动搜索，其他棋库无法使用自动搜索功能';
+		}
+		else
+		{
+			s1='在棋盘上走子后将自动根据当前局面进行所选搜索统计';
+			AllowSearchP=true;
+			$(o).value='parent.'+s;
+		}
+		if (f==0) showalert(s1);
+		else f.showalert(s1);
+	}
+}
+function getvar(UBB,v)
+{
+	var r=new RegExp('\\[(DhtmlXQ_'+v+')\\](.*'+REOK+')\\[\\/\\1\\]','gi');
+	var s=UBB.match(r);
+	return (s==null)?'':s[0].replace(r,'$2').replace(/\|\|/gi,'\r\n');
+}
+function zoom(z)
+{
+	if (z==null)
+	{
+		if (!NS) getBrowser();
+		if (NS.Old) {alert('本浏览器太旧了,无法提供棋盘缩放功能,请更换其他浏览器');return;}
+		var s='',i=1;
+		for (i=1;i<=2.2;i=i+0.05)
+		{
+			s+=' <a href="javascript:zoom('+(i+0.001).toString().substr(0,4)+')">'+(i+0.001).toString().substr(0,4)+'</a>';
+		}
+		showalert('<div style="width:98%;margin:10px 0;line-height:20px;text-align:center;overflow:hidden;"><nobr style="height:20px;">点相应数字倍数链接放大棋盘，需要开启Cookie功能，放大倍数将会被记住，下次打开本页将采用您设置好的倍数，设置好放大倍数后点确定</nobr><br><nobr style="height:20px;">'+s+'</nobr><br><nobr style="height:20px;">欢迎使用设置棋盘个性化样式功能，[<span style="color:#f0f">制作棋盘样式时图片路径可使用<span style="color:#00f;">本地目录</span>或其他网站的网址</span>]，请注意使用[<span style="color:#f0f">默认文本样式</span>]是速度最快的</nobr><br><button onclick="setimgpath(\'txt\')" style="width:100px;font-size:12px;">默认文本样式</button>&nbsp;<button onclick="setimgpath(\'/DhtmlXQ_www_dpxq_com/\')" style="width:100px;font-size:12px;">默认图形样式</button>&nbsp;<input type="text" id="imgp" style="width:200px;position:relative;left:0;top:0;font-size:12px;" value="'+IMGPATH.replace(/"/gi,'')+'">&nbsp;<button onclick="setimgpath()" style="width:180px;font-size:12px;">使用左侧图片路径的图形样式</button></div>');
+		return;
+	}
+	var z=(z+0.001).toString().substr(0,4);
+	var d=(z=='1.00'&&ZOOM-z!=0)?1:0;
+	ZOOM=z-0;
+	var w=Math.round(500*ZOOM);
+	$('dpqp').style.width=w+'px';
+	if (parseInt($('dpsep').style.top)==0) // IE56
+	{
+		$('dpsep').style.paddingRight=w+6+'px';
+		$('fcdiv').style.paddingRight=w+6+'px';
+		$('fcfoot').style.paddingRight=w+6+'px';
+	}
+	else
+	{
+		$('dpsep').style.right=w+6+'px';
+		$('fcdiv').style.right=w+6+'px';
+		$('fcfoot').style.right=w+6+'px';
+	}
+	zoomBoard(window.frames[fpi[2]]); // 原为location.reload();
+	zoomBoard(window.frames[fpi[4]]);
+	zoomBoard(window.frames[fpi[5]]);
+	zoomBoard(window.frames[fpi[6]]);
+	DelCookie('zoom');
+	if (!d) SetCookie('zoom',z);
+}
+function zoomBoard(f)
+{
+	if (f.initboard)
+	{
+		if (ZOOM-f.fdbs==0&&VIEWTYPE==f.viewtype) return;
+		var ViewURL='?f='+f.getViewURL();
+		f.UBB='[DhtmlXQ_viewurl]'+ViewURL+'[/DhtmlXQ_viewurl]'+f.UBB.replace(/\[DhtmlXQ_viewurl\].*\[\/DhtmlXQ_viewurl\]/gi,'');
+		if (VIEWTYPE==f.viewtype)
+		{
+			f.initboard(ZOOM);
+			if (f.editNow=='') f.initdata();
+		}
+		else if (ViewURL=='?f=0_0_1_0____1009_') // 更换了文本或图形会自动刷新页面,需要没有viewurl问题
+		{
+			f.location.reload();
+		}
+	}
+}
+function setimgpath(p)
+{
+	if (typeof(p)!='string') p=$('imgp').value;
+	if (p=='txt') p='';
+	if (p!='') p=(p+'/').replace(/[\\]/gi,'/').replace(/[\\\/]+$/gi,'/');
+	var s=p.match(/[^\w\:\/\\\.\-\u00FF-\uFFFF]/gi);
+	if (s!=null) {alert('自定义图片路径不能含如下字符\n'+s.join('\n')+'\n请您删除不支持的字符后再设置');return;}
+	$('imgp').value=p;
+	IMGPATH=p;
+	VIEWTYPE=(p=='')?'txt':'img';
+	DelCookie('imgpath');
+	if (p!='') SetCookie('imgpath',p);
+	zoom(ZOOM);
+}
+function uploadqipu()
+{
+	if (!NS) getBrowser();
+	if (NS.Old&&search_end_pos.location.pathname!='/hldcg/dhtmlxq/upfile.htm')
+	{
+		alert('浏览器太旧了,不能显示HTML提示框,请点下面的"录入棋谱"链接后再打谱');
+		return;
+	}
+	if (!search_end_pos.document.form_upload) showalert('制作GIF动画时无法上传棋谱文件打谱');
+	else search_end_pos.document.form_upload.chess.click();
+}
+var iloginsave=0;
+function showLoginSave()
+{
+	if (iloginsave>0)
+	{
+		var x1=getFrames();
+		show(7);
+		if (x1!=0){x1=window.frames[x1];if(x1.preview&&x1.editNow)x1.preview();}
+	}
+	iloginsave=1;
+}
+function showLuPuDIV(ty)
+{
+	if (!ty&&location.hostname.search(/(localhost|127\.0\.0\.1|192\.168\.0\.2)/)==-1&&GetCookie('dpxqvipuser')!='东萍公司') {location.href="/hldcg/shop/vip.htm";return false;}
+	var h=$('LuPuDIV').style.display;
+	if (h=='') {$('LuPuDIV').style.display='none';return;}
+	$('LuPuDIV').style.display='';
+	if ($('LuPuDIV').innerHTML=='') $('LuPuDIV').innerHTML='<iframe application="yes" id="lupuframe" name="lupuframe" src="lupu.htm" width="100%" height="100%" frameborder="0"></iframe>';
+	return false;
+}
+var leftframe='search_end_pos search_fast name_fcframe'; // 点击隐藏前显示的frame页面
+function showFrame(n)		    // IE7 隐藏时有残留,不知为何,改用style.left=-111%
+{
+	var i,fpi,f=['search_end_pos','search_fast','fcdiv'];
+	if (n=='name_fcframe') fpi='fcdiv';
+	else if (n=='search_fast') fpi=n;
+	else {n='search_end_pos';fpi=n;}
+	if (leftframe.indexOf(n)==0) return;
+	leftframe=n+(' '+leftframe).replace(' '+n,'');
+	if (n=='name_fcframe')
+	{
+		fcbutton(1);
+		if ($(fpi).style.display=='none') $(fpi).style.display='';
+		for (i=0;i<3;i++) {if (f[i]!=fpi&&$(f[i]).style.left!='-200%') $(f[i]).style.left='-200%';}
+	}
+	else
+	{
+		if ($(fpi).style.left=='-200%') $(fpi).style.left='0';
+		for (i=0;i<3;i++)
+		{
+			if (f[i]!=fpi)
+			{
+				if (f[i]=='fcdiv') {if ($(f[i]).style.display!='none') $(f[i]).style.display='none';}
+				else if ($(f[i]).style.left!='-200%') $(f[i]).style.left='-200%';
+			}
+		}
+	}
+}
+function hideFrame(n)
+{
+	var o=leftframe.split(' ')[1];
+	if (n=='name_fcframe') fcbutton(0);
+	if ((n=='name_fcframe'&&o=='search_fast')||(n=='search_fast'&&o=='name_fcframe')) {leftframe='search_end_pos search_fast name_fcframe';showFrame(o);}
+	else showFrame('search_end_pos');		
+}
+function CLS(s)
+{
+	return s.replace(/(^\s*|\s*$)/gi,'');
+}
+function getMoveList(UBB)
+{
+	var move=UBB.match(eval('/\\[(DhtmlXQ_move(list|_\\d+_\\d+_\\d+))\\]\\d{4}.*'+checkRegExp()+'\\[\\/\\1\\]/gi'));
+	move=(move==null)?'':move.join('\r\n').replace(/\[DhtmlXQ_move_0_1_0\](.*)\[\/DhtmlXQ_move_0_1_0\]/gi,'[DhtmlXQ_movelist]$1[/DhtmlXQ_movelist]');
+	if (move.search(/^\[DhtmlXQ_movelist\].*\[\/DhtmlXQ_movelist\]$/gi)!=-1) move=move.replace(/^\[DhtmlXQ_movelist\](.*)\[\/DhtmlXQ_movelist\]$/gi,'$1');
+	return move;
+}
+var FCHTML;
+function fcaddbtn(ty)
+{
+	try {fcbtn.document.body.innerHTML=FCHTML;} catch(e) {if (ty<=5) setTimeout('fcaddbtn('+(ty+1)+')',1000); else alert('功能按钮页面打开出错');}
+}
+function fcbutton(t)
+{
+	if ($('fcfoot').innerHTML=='')
+	{
+		if (!NS) getBrowser();
+		var w='style="height:22px;width:60px;font-size:12px;line-height:18px;padding:0;text-align:center;margin:0;"';
+		var s='<div style="background-color:#c7c7c7;width:500px;overflow:hidden;margin:0 0 0 auto;padding-top:2px;text-align:center;" nowrap><input '+w+' type="button" value="\u68CB\u8C31\u6BD4\u8F83" onclick="fcmovelist()" /> <input '+w+' type="button" value="\u540C\u6B65\u5F00\u5C40" onmouseup="fcgotonum(\'First\')" /> <input '+w+' type="button" value="\u540C\u6B65\u524D\u8FDB" onmouseup="fcgotonum(\'Next\')" /> <input '+w+' type="button" value="\u540C\u6B65\u540E\u9000" onmouseup="fcgotonum(\'Prev\')" /> <input '+w+' type="button" value="\u540C\u6B65\u7EC8\u5C40" onmouseup="fcgotonum(\'Last\')" /> <input '+w.replace('60px','120px')+' type="button" value="\u53EF\u8D70\u68CB\u8C03\u6574\u540E\u518D\u6BD4\u8F83" /> <input '+w.replace('60px','42px')+' type="button" value="\u5173\u95ED" onclick="fcclose()" /></div>';
+		if (NS.IE&&NS.IE<=6&&!(document.documentMode>=0)&&!NS.Opera) 
+		{
+			FCHTML='<style type="text/css">body,div,input{padding:0;margin:0;font-size:12px;line-height:16px;font-family:宋体,simsun,"MS Song",sans-serif;}</style>'+s.replace(/on(click|mouseup)="fc/gi,'on$1="parent.fc');
+			$('fcfoot').innerHTML='<iframe application="yes" name="fcbtn" style="width:500px;height:24px;" align="right" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>';
+			setTimeout('fcaddbtn(1)',1000);
+		}
+		else $('fcfoot').innerHTML=s;
+	}
+	$('fcfoot').style.visibility=t==1?'visible':'hidden';
+	if (t)
+	{
+		var fpi=getFrames();
+		if (fpi==0) return;
+		var x1=window.frames[fpi];
+		if (!x1.showalert||!x1.clickNO) return;
+		var x0=window.frames['name_fcframe'];
+		var m0=getMoveList(x0.UBB);
+		var m1=getMoveList(x1.UBB);
+		if (m0==''||m1=='') return;
+		if (m0==m1) {x1.showalert('两侧棋谱[原始着法]相同');setTimeout('window.frames["'+fpi+'"].clickNO()',1000);}
+		else setTimeout('fcmovelist()',300);
+	}
+}
+function fcclose()
+{
+	hideFrame('name_fcframe'); // onclick不能用onmouseup
+}
+function fcgotonum(s)
+{
+	var x0=window.frames['name_fcframe'];
+	var x1=getFrames();
+	if (x1!=0) {x1=window.frames[x1];if (!x1.gotonum) x1=0;}
+	if (x1==0) {showalert('右侧页面不是动态棋盘页，请点“显示棋局、预览、推演”查看动态棋盘');return;}
+	if (x1.$('divsave').style.display=='') x1.preview();
+	x0.gotonum(s);
+	x1.gotonum(s);
+}
+function fcmovelist()
+{
+	var x0=window.frames['name_fcframe'];
+	var x1=getFrames();
+	if (x1!=0) {x1=window.frames[x1];if (!x1.gotonum) x1=0;}
+	if (x1==0) {showalert('右侧页面不是动态棋盘页，请点“显示棋局、预览、推演”查看动态棋盘');return;}
+	if (x1.$('divsave').style.display=='') x1.preview();
+	if (!x0.move||!x1.move) return;
+	var m0=x0.move.match(/\d\d\d\d/gi);
+	var m1=x1.move.match(/\d\d\d\d/gi);
+	if (m0==null||m1==null) return;
+	var l0=x0.lnum;
+	var l1=x1.lnum;
+	var n0=x0.nnum;
+	var n1=x1.nnum;
+	var l=Math.min(l0-n0,l1-n1);
+	var i=0;
+	for (i=0;i<l;i++) {if (m0[n0+i]!=m1[n1+i]) break;}
+	x0.gotonum(n0+i);
+	x1.gotonum(n1+i);
+}
+var fentimer;
+function fentrans()
+{
+	var i,t,b,s=$('fenpaste');
+	var p=s.value.match(/([0-8]\d|99){32}(tree|tnew|tred|tall|next|\d{4})?/gi);
+	if (p==null)
+	{
+		p=s.value.match(/([rnbakcp\d]{1,9}\/){9}[rnbakcp\d]{1,9}/gi);
+		if (p==null) p='';
+		else
+		{
+			p=p[0].replace(/9/g,'111111111').replace(/8/g,'11111111').replace(/7/g,'1111111').replace(/6/g,'111111').replace(/5/g,'11111').replace(/4/g,'1111').replace(/3/g,'111').replace(/2/g,'11');
+			if (p.length<99) {s.value='点击在此粘贴正确的棋软FEN局面串,1';fentimer=setTimeout(fentrans,500);return;}
+			clearTimeout(fentimer);
+			p=p.substr(0,99);
+			b='rnbakabnrccpppppRNBAKABNRCCPPPPP'.split('');
+			for (i=0;i<=31;i++)
+			{
+				t=b[i];
+				b[i]=(200+p.indexOf(b[i])+'').substr(1).split('').reverse().join('');
+				p=p.replace(t,'1');
+			}
+			p=b.join('').replace(/(\d{32})(\d{32})/gi,'$2$1');
+		}
+	}
+	else p=p[0];
+	if(p=='') {fentimer=setTimeout(fentrans,500);return;}
+	s.blur();
+	s=search_diy.document.s;
+	b=s.p.value.slice(-4);b=(b=='tree'||b=='tnew'||b=='tall')?b:'';
+	s.e.value = '';
+	s.p.value = p+b;
+	s.submit();
+	posview(p);
+}
+var SearchPtimer,AllowSearchP;
+function autoSearchP(i,ty)
+{
+	clearTimeout(SearchPtimer);
+	if (!AllowSearchP)
+	{
+		     if (i==0) {SearchPtimer=setTimeout('autoSearchP(1,"'+ty+'")',1000);return;}
+		else if (i==1) {SearchPtimer=setTimeout('autoSearchP(2,"'+ty+'")',1000);return;}
+		else if (i==2) {SearchPtimer=setTimeout('autoSearchP(3,"'+ty+'")',1000);return;}
+		else if (i==3) {SearchPtimer=setTimeout('autoSearchP(4,"'+ty+'")',1000);return;}
+		else if (i==4) {SearchPtimer=setTimeout('autoSearchP(5,"'+ty+'")',1000);return;}
+		else if (i==5) {AllowSearchP=true;}
+	}
+	else
+	{
+		AllowSearchP=false;
+		setTimeout('okSearchP("'+ty+'")',500);
+	}
+}
+function okSearchP(ty)
+{
+	var f=frames[getFrames()];
+	if (f.SearchP&&f.nnum>0&&f.nnum<=80&&('_大师对局_网络赛事_顶尖对局_其他对局_m_n_t_o_'.indexOf('_'+search_diy.document.s.owner.value+'_')!=-1)) {AllowSearchP=false;f.SearchP(ty);}
+}
+function posview(s)
+{
+	if (name_dhtmlxq_pview.location.href.indexOf('DhtmlXQ_www_dpxq_com.htm')==-1) name_dhtmlxq_pview.location.href='DhtmlXQ_www_dpxq_com.htm';
+	name_dhtmlxq_pview.pClick='99999999'; //\u8FD9\u6837\u53EF\u9632\u51FA\u9519
+	name_dhtmlxq_pview.DrawPOS(s);
+	name_dhtmlxq_pview.pClick='';
+}
+function showOnline(username,online)
+{
+	$('DhtmlXQ_online').innerHTML=(username==''?'没有登录：[<a href="login.asp" target="login_save">登录</a>] [<a href="reg.asp" target="login_save">注册</a>]':'当前用户：<span style="color:#f00">'+username+'</span> [<a href="logout.asp" target="login_save">退出</a>]')+' <a href="s_online.asp" target="search_end_pos">当前在线</a>：<span style="color:#f00">'+online+'</span> 人';
+}
+//-->
+</script>
+</head>
+<body onkeydown="Xnc_KEvent(event.keyCode)" onload="cwin()">
+<div style="display:none;">
+<div id="dhtmlxq_search_view"></div>
+<div id="dhtmlxq_pview">[DhtmlXQ_title]预览棋盘[/DhtmlXQ_title]</div>
+<div id="dhtmlxq_1">[DhtmlXQ_title]推演棋盘[一][/DhtmlXQ_title]</div>
+<div id="dhtmlxq_2">[DhtmlXQ_title]推演棋盘[二][/DhtmlXQ_title]</div>
+<div id="fcframe"></div>
+<script type="text/javascript">UBBS["dhtmlxq_search_view"]='ok'+$('dhtmlxq_search_view').innerHTML;</script>
+</div>
+<div id="dpsep" style="overflow:hidden;position:absolute;top:27px;bottom:27px;left:3px;right:506px;_height:100%;_top:0;_bottom:0;_left:0;_right:0;_padding:27px 506px 27px 3px;">
+<div class="sframe" id="mySEP">
+<iframe application="yes" style="left:0;" onload="showFrame()" src="list.asp?owner=u&event=閫傛儏闆呰叮" name="search_end_pos" id="search_end_pos" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+<iframe application="yes" style="left:-200%;" src="" name="search_fast" id="search_fast" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+</div></div>
+<div id="dpqp" style="overflow:hidden;position:absolute;top:27px;bottom:27px;width:500px;right:3px;_height:100%;_top:0;_bottom:0;_padding:27px 0;">
+<div class="sframe" id="hldcg_view">
+<iframe application="yes" style="left:0;" src="DhtmlXQ_www_dpxq_com.htm" name="name_dhtmlxq_search_view" id="id_dhtmlxq_search_view" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe application="yes" style="left:200%;" src="search.htm" name="search_diy" id="search_diy" frameborder="0" marginwidth="0" marginheight="0"></iframe>
+<iframe application="yes" style="left:200%;" src="DhtmlXQ_www_dpxq_com.htm" name="name_dhtmlxq_pview" id="id_dhtmlxq_pview" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe application="yes" style="left:200%;" src="" name="name_dhtmlxq_1" id="id_dhtmlxq_1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe application="yes" style="left:200%;" src="" name="name_dhtmlxq_2" id="id_dhtmlxq_2" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+<iframe application="yes" style="left:200%;" src="" onload="showLoginSave()" name="login_save" id="login_save" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+</div></div>
+<div id="fcdiv" style="display:none;position:absolute;top:27px;bottom:27px;left:3px;right:506px;_height:100%;_top:0;_bottom:0;_left:0;_right:0;_padding:27px 506px 27px 3px;">
+<div id="fciframe" style="background-color:#F4FCF3;text-align:right;">
+<iframe application="yes" id="id_fcframe" name="name_fcframe" src="" frameborder="0" scrolling="no" style="width:500px;height:100%;"></iframe>
+</div></div>
+<div id="header" style="background-color:#c7c7c7;position:absolute;width:100%;height:24px;overflow:hidden;top:3px;left:0;">
+<div style="position:absolute;overflow:hidden;width:100%;top:0;left:9px;right:506px;line-height:24px;"><a href="login.asp" target="login_save" title="登录系统">登录</a> <a href="logout.asp" target="login_save" title="退出系统">退出</a> <a href="reg.asp" target="login_save" title="注册系统">注册</a> <a href="javascript:uploadqipu();" title="打开硬盘中的各种棋谱">打谱</a> <a href="javascript:show(3)" style="color:#f00" title="打开高级搜索页">高级搜索</a> <a href="javascript:openmini()" title="打开迷你版只占半屏">迷你版</a> <a href="javascript:AddtoFav('收藏本站')" title="收藏本站" style="color:#f00">收藏</a> <a href="javascript:copyright()" title="东萍象棋客户端 V 1.0">关于</a></div>
+<div style="position:absolute;right:9px;top:0;line-height:24px;background-color:#c7c7c7;padding-left:6px;"><a href="javascript:show(2)" style="color:#f00;">显示棋局</a> <a href="javascript:show(4)">预览</a> <a href="javascript:show(5)">推演1</a> <a href="javascript:show(6)">推演2</a> <a href="/hldcg/shipin_0_1.html" target="_blank">视频</a> <a href="/hldcg/news_0_1.html" target="_blank">资讯</a> <a href="/" target="_blank">首页</a> <a href="/hldcg/" style="color:#f00;" target="_blank">赛事</a> <a href="/hldcg/share/" target="_blank">棋书</a> <a href="/magzine/" target="_blank">杂志</a> <a href="/hldcg/shop/" target="_blank">商城</a> <a href="/hldcg/qishou_0_1.html" target="_blank">棋手</a> <a href="javascript:show(3)" style="color:#f00;">高级搜索</a> <a href="javascript:zoom()">设置</a></div>
+<div id="divtopleft" style="position:absolute;top:1px;right:506px;height:23px;"></div>
+</div>
+<div id="footer" style="background-color:#c7c7c7;position:absolute;width:100%;height:24px;overflow:hidden;bottom:3px;left:0;">
+<div style="position:absolute;overflow:hidden;width:100%;top:3px;left:9px;right:506px;line-height:20px;" id="DhtmlXQ_online"></div>
+<div style="position:absolute;right:6px;top:3px;line-height:16px;">
+<table style="width:497px;" cellspacing=0 cellpadding=0>
+<tr>
+<td><div style="padding-top:2px;background-color:#ff9;text-align:center;color:#00f;" class="hand" onclick="showLuPuDIV()">棋谱仓库VIP会员年卡100元月卡15元</div></td>
+<td id="pastetd" style="width:1px;"></td>
+<td style="padding-left:3px;width:100px;text-align:right;">
+<input type="hidden" value="" id="auto_getpos" />
+<select onchange="copyBinit('auto_getpos',this.options[this.selectedIndex].value)" size="1" style="margin:0px;padding:0px;height:20px;">
+<option value="">停止自动复制局面到剪贴板</option>
+<option value="getIMGTEXT('xqstudio')">自动复制象棋演播室文本图</option>
+<option value="getFENTEXT('xqqb')">自动复制象棋奇兵局面</option>
+<option value="getFENTEXT('qtds')">自动复制棋天大圣局面</option>
+<option value="getFENTEXT('ucci')">自动复制UCCI引擎FEN局面</option>
+<option value="getXQSJTEXT('xqsj')">自动复制象棋世家局面</option>
+</select></td>
+<td style="padding-left:3px;width:80px;text-align:right;">
+<input type="hidden" value="" id="auto_search" />
+<select onchange="copyBinit('auto_search',this.options[this.selectedIndex].value)" size="1" style="margin:0px;padding:0px;height:20px;">
+<option value="">停止自动搜索</option>
+<option value="autoSearchP(0,'tree')">自动搜索变着</option>
+<option value="autoSearchP(0,'tnew')">自动搜索新变</option>
+<option value="autoSearchP(0,'tall')">自动变着叠加</option>
+<option value="autoSearchP(0,'next')">自动搜索棋局</option>
+</select></td>
+</tr></table></div>
+<div id="fcfoot" style="visibility:hidden;overflow:visible;background-color:#c7c7c7;text-align:right;position:absolute;top:0;height:24px;left:3px;right:506px;_position:relative;_width:100%;_left:0;_right:0;_margin-left:3px;_margin-right:506px;"></div>
+</div>
+<div id="LuPuDIV" style="position:absolute;width:500px;right:3px;bottom:27px;height:211px;border-top:3px solid #ccc;display:none;background-color:#fff;"></div>
+<div id="message" style="position:absolute;left:10%;top:100px;width:80%;display:none;"><div id="messdiv" style="position:relative;height:168px;padding:2px;border:2px solid #0f0;text-align:center;color:#00f;background-color:#F4FCF3;word-wrap:break-word;word-break:break-all;"></div></div>
+<iframe application="yes" name="search_view" frameborder="0" width="0" height="0" src=""></iframe>
+<iframe application="yes" id="DhtmlXQ_dpxq" name="DhtmlXQ_dpxq" frameborder="0" width="0" height="0"></iframe>
+<script type="text/javascript">
+showOnline('','25254');
+if (window!=top&&parent.location.pathname.substr(0,14)=='/hldcg/search/'&&parent.location.pathname.substr(0,21)!='/hldcg/search/cms.htm')
+{
+	var DhtmlXQ_source = UBBS["dhtmlxq_search_view"];
+	parent.UBBS["dhtmlxq_search_view"]=DhtmlXQ_source;
+	var DhtmlXQ_url = parent.name_dhtmlxq_search_view.location.href;
+	var index=getvar(DhtmlXQ_source,'viewurl').search(/isSave=yes/gi);
+	if (DhtmlXQ_url.indexOf('DhtmlXQ_www_dpxq_com.htm')>0)
+	{
+		DhtmlXQ_source=DhtmlXQ_source.match(new RegExp('\\[(DhtmlXQ_\\w+)\\].+'+REOK+'\\[\\/\\1\\]','gi'));
+		parent.name_dhtmlxq_search_view.UBB=(DhtmlXQ_source==null)?('[DhtmlXQ_ver]www_dpxq_com[/DhtmlXQ_ver]\r\n[DhtmlXQ_init]500,350[/DhtmlXQ_init]'):parent.name_dhtmlxq_search_view.unconv(DhtmlXQ_source.join('\r\n')).replace(/&amp;/gi,'&').replace(/&lt;/gi,'<').replace(/&gt;/gi,'>').replace(/&nbsp;/gi,' ');
+		if (index!=-1)
+		{
+			parent.name_dhtmlxq_search_view.EditSave();
+			if (parent.document.getElementById('search_fast').style.visibility=='visible') setTimeout('parent.name_dhtmlxq_search_view.g_tour()',100);
+		}
+		else
+			parent.name_dhtmlxq_search_view.initdata();
+		parent.name_dhtmlxq_search_view.hideSearch();
+		parent.name_dhtmlxq_search_view.hideSource();
+		if (parseInt(parent.document.getElementById('LuPuDIV').style.width)-parseInt(500*ZOOM)>6) parent.document.getElementById('LuPuDIV').style.display='none';
+	}
+	else
+	{
+		parent.name_dhtmlxq_search_view.location.href='DhtmlXQ_www_dpxq_com.htm';
+	}
+	parent.show(2);
+	if (index==-1)
+	{
+		sdiy_hide();
+		parent.search_end_pos.location.href="list.asp?owner=u&event=閫傛儏闆呰叮";
+		parent.search_diy.location.href="search.htm";
+	}
+}
+else
+{
+	$('LuPuDIV').style.height=parseInt($('hldcg_view').clientHeight-600>0?$('hldcg_view').clientHeight:600)-(CSS1?572:569)+'px';
+}
+</script>
+<div style="display:none;"><script type="text/javascript" src="/hldcg/count/count.js"></script></div>
+</body>
+</html>
