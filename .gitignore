@@ -4,3 +4,8 @@ android.zip
 chrome_profile/
 __pycache__/
 *.pyc
+
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
